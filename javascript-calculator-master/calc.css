@@ -15,10 +15,10 @@ body {
 
 .screen {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Courier New", Courier, monospace;
-    text-align: right;
-    padding: 20px 5px;
+    text-align: center;
+    padding: 40px 5px;
 }
 
 .calc-button {
@@ -29,7 +29,7 @@ body {
     border: none;
     border-radius: 0;
     font-size: 40px;
-    cursor: pointer;
+    cursor:grabbing;
 }
 
 .calc-button:hover {
@@ -63,11 +63,15 @@ body {
 
 .calc-button-row {
     display: flex;
-    align-content: stretch;
+    align-content:stretch;
     justify-content: space-between;
     margin-bottom: 0.5%;
 }
 
 .calc-button-row:last-child {
     padding-bottom: 0;
+}
+
+.calc {
+    align-items: center;
 }
